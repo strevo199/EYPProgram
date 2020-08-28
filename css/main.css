@@ -18,8 +18,8 @@ header .menu2 {
     -ms-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out; }
   header .menu2.show {
-    top: 15%;
-    height: 85vh;
+    top: 12.5%;
+    height: 88vh;
     transition: all 0.6s ease-out;
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -267,7 +267,7 @@ header {
       text-shadow: 3px 2px 2px 2px black;
       color: white;
       position: absolute;
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
       word-spacing: -0.3rem;
       transition: all 0.6s ease-out;
       -webkit-transition: all 0.6s ease-out;
@@ -297,7 +297,7 @@ header {
     padding-top: 1rem;
     color: white;
     text-align: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.5rem; }
 
 .breifing {
@@ -326,14 +326,16 @@ header {
     font-size: 1.5rem; }
   .breifing .event-2 h3, .breifing .event-3 h3 {
     color: #333333;
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
 
 .ministers {
   margin: 2rem 0; }
   .ministers h1 {
     text-align: center;
     margin: 2rem;
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
   .ministers .theminsters {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -387,7 +389,7 @@ header {
     margin: 1.5rem;
     font-size: 2rem;
     text-align: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
   .artistes .ourartistes {
     display: grid;
     grid-gap: 3rem;
@@ -400,19 +402,6 @@ header {
     margin: 12%; }
     .artistes .guest-13 img {
       width: 100%; }
-    .artistes .guest-13:hover {
-      transition: all 0.6s ease-out;
-      -webkit-transition: all 0.6s ease-out;
-      -moz-transition: all 0.6s ease-out;
-      -ms-transition: all 0.6s ease-out;
-      -o-transition: all 0.6s ease-out;
-      transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      box-shadow: 1px 1px 2px 2px #00000017,1px -1px 2px -2px #000000dc;
-      background-color: #ffffff; }
   .artistes p:hover {
     color: #671081; }
 
@@ -483,7 +472,7 @@ header {
     align-items: center;
     text-align: center; }
     .about .main1 h1 {
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
       font-size: 3.8rem; }
   .about .main2 {
     width: 60%;
@@ -493,7 +482,7 @@ header {
       color: #4d4d4d;
       padding: 5vh; }
       .about .main2 .mainContent h2 {
-        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
         text-align: center;
         font-size: 2.5rem; }
       .about .main2 .mainContent p {
@@ -528,15 +517,16 @@ header {
     .about .main2 .mainContent > p {
       width: 80%; }
   .ministers .theminsters {
-    display: block; }
+    display: block;
+    overflow-y: hidden; }
     .ministers .theminsters .word {
-      margin: 3rem 0;
+      margin: 4rem auto;
       padding-bottom: 1rem;
-      width: 70%;
-      margin: auto; }
+      width: 70%; }
   .artistes .ourartistes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: hidden; } }
 
 @media screen and (max-width: 788px) {
   .about .main1 {
